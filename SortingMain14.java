@@ -25,5 +25,18 @@ public class SortingMain14 {
 
         System.out.print("Selection Sort (ASC): ");
         dataurut2.tampil();
+
+
+        // Insertion Sort
+        int[] c = {40, 10, 4, 9, 3};
+        Sorting14 dataurut3 = new Sorting14(c, c.length);
+
+        System.out.print("\nData awal 3: ");
+        dataurut3.tampil();
+
+        dataurut3.insertionSort();
+
+        System.out.print("Insertion Sort (ASC): ");
+        dataurut3.tampil();
     }
 }
